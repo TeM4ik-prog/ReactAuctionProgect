@@ -1,0 +1,10 @@
+.footer-container {
+    position: relative;
+    font-size: 10px;
+
+    margin-top: auto;
+    bottom: 0%;
+    border-top: 1px solid gray;
+    /* align-items: end;
+    justify-self: end; */
+}

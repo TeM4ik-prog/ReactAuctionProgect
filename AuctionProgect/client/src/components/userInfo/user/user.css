@@ -1,0 +1,63 @@
+.block-trader {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    /* .block-trader { */
+    margin: 0 0 1rem 0;
+    height: auto;
+    /* justify-items: baseline; */
+    /* } */
+
+    /* border-bottom: 0.06em solid #838383;
+    border-top: 0.06em solid #838383; */
+}
+
+.trader-avatar {
+    border-radius: 50%;
+    width: calc(3.25em + 1vw);
+    height: calc(3.25em + 1vw);
+}
+
+.trader-name {
+    font-size: calc(0.75em + 0.35vw);
+    margin: 0;
+}
+
+.bottom-trader-links {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.bottom-trader-links a p {
+    font-weight: 100;
+    font-size: calc(0.55em + 0.35vw);
+    margin: 0%;
+}
+
+.trader-info {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    align-items: flex-start;
+}
+
+.trader-info * {
+    margin-bottom: 0.25rem;
+}
+
+.userBidPrice-text-user {
+    text-wrap: nowrap;
+    width: min-content;
+    margin: 0px;
+    padding: 0.2rem;
+    font-size: calc(0.5em + 0.5vw);
+    box-sizing: content-box;
+
+    border-radius: 3px;
+
+    background-color: rgb(202, 76, 76);
+}

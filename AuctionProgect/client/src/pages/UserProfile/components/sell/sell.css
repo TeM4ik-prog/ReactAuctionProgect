@@ -1,0 +1,114 @@
+.sell-container {
+    width: calc(16rem + 13vw);
+    position: relative;
+    /* min-height: 30em; */
+    height: min-content;
+    box-shadow: 10px 10px 10px black;
+    background-color: #e0e1e6;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: auto;
+    border-radius: 0.75rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.input-parament .textarea-container {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    resize: vertical;
+
+}
+
+
+.title {
+    /* margin: 0 0 7.5% 0; */
+    margin: 0%;
+    width: 100%;
+    font-weight: 600;
+    font-size: calc(1.45em + 0.75vw);
+    text-wrap: nowrap;
+    color: black;
+    text-align: center;
+}
+
+.date-picker {
+    z-index: 1500;
+}
+
+
+.inputs-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+
+
+
+.input-parament {
+    margin-bottom: 0.5rem;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: 160%;
+    appearance: none;
+    bottom: 5%;
+    left: 2%;
+    background-color: #282933;
+    height: min-content;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    color: #ebecf0;
+    padding: 2%;
+    border-radius: 8px;
+    border: none;
+
+    outline: none;
+    z-index: 100;
+    box-shadow: 3px 10px 3px rgba(139, 139, 139, 0.634);
+    transition: 0.6s;
+
+
+    margin-bottom: 1rem;
+}
+
+
+.button-submit-sell {
+    font-size: 16px;
+    line-height: 160%;
+    border-radius: 8px;
+    width: 100%;
+    font-weight: 700;
+    height: 2.75em;
+    box-shadow: inset 0px -2px 0px #1849cc;
+    color: #ffffff;
+    background-color: #707480;
+    border: none;
+    cursor: not-allowed;
+    /* margin-bottom: 1.75%; */
+    /* justify-content: end; */
+    box-sizing: border-box;
+    /* margin-top: auto; */
+    margin: 0;
+
+    /* align-self: first baseline; */
+}
+
+
+.sell-container:valid .button-submit-sell[type="submit"] {
+    background-color: #2663f0;
+    cursor: pointer;
+}
+
+
+
+
+/*  */

@@ -1,0 +1,20 @@
+.productsList-container {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+
+
+    /* width: calc(100% - 50% - 20vw - 3em); */
+    /* max-width: min-content; */
+    /* max-width: 100%; */
+
+
+
+}
+
+
+
+
+

@@ -1,0 +1,46 @@
+.header-text-info {
+    display: inline-flex;
+    flex-direction: row;
+
+    font-size: calc(1.5em + 1vw);
+    padding: 0.5rem;
+
+    margin-bottom: 1rem;
+}
+
+.header-text-info p {
+    margin: 0%;
+}
+
+.UserPart-filter-container {
+    margin-bottom: 1rem;
+
+}
+
+
+
+
+.winner-user-container {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #840000;
+    border-radius: 8px;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+
+    border-bottom: 1px solid gray;
+    margin-bottom: 2rem;
+
+}
+
+.winner-user-container .block-trader {
+    margin-bottom: 0;
+}
+
+.user-winner {
+    font-size: x-large;
+}
+
+.top-info-text-winner {
+    margin: 0.5rem;
+    font-size: calc(1em + 1vw);
+}
